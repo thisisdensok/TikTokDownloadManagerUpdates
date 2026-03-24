@@ -1,0 +1,161 @@
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Standard SEO -->
+    <title>TikTok Download Manager - Professional Windows Video Downloader</title>
+    <meta name="description" content="Download entire TikTok profiles and videos with ease. A high-performance, native Windows 11/12 application featuring auto-updates and smart folder management.">
+    <meta name="keywords" content="TikTok downloader, Windows app, video manager, TikTok profile downloader, yt-dlp GUI, WinUI 3">
+    <link rel="canonical" href="https://thisisdensok.github.io/TikTokDownloadManagerUpdates/">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Technical Meta -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thisisdensok.github.io/TikTokDownloadManagerUpdates/">
+    <meta property="og:title" content="TikTok Download Manager - Fast & Professional">
+    <meta property="og:description" content="The ultimate desktop tool for managing and downloading TikTok content. Native Windows performance.">
+    <meta property="og:image" content="https://thisisdensok.github.io/TikTokDownloadManagerUpdates/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://thisisdensok.github.io/TikTokDownloadManagerUpdates/">
+    <meta property="twitter:title" content="TikTok Download Manager">
+    <meta property="twitter:description" content="Download high-quality TikTok videos directly to your PC. Built for Windows 11.">
+    <meta property="twitter:image" content="https://thisisdensok.github.io/TikTokDownloadManagerUpdates/og-image.png">
+
+    <style>
+        *,
+        *::before,
+        *::after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scrollbar-gutter: stable; 
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            overflow-x: hidden;
+        }
+
+        /* Professional Flex Container */
+        .container {
+            display: flex;
+            flex-direction: row; /* Side-by-side on Desktop */
+            max-width: 1100px;
+            width: 100%;
+            height: fit-content;
+            gap: 40px; /* Modern spacing instead of mr-28 */
+            align-items: flex-start;
+        }
+
+        .left-col {
+            flex: 1; /* Takes up equal space */
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            position: sticky; /* Stays visible as you scroll instructions */
+            top: 40px;
+            max-width: 300px;
+        }
+
+        .right-col {
+            flex: 1.2; /* Slightly wider for screenshots */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #eee;
+        }
+
+        /* 📱 MOBILE RESPONSIVENESS */
+        @media (max-width: 900px) {
+            body { padding: 20px 15px; }
+
+            .container {
+                flex-direction: column; /* Stacks vertically on Mobile */
+                gap: 30px;
+            }
+
+            .left-col {
+                position: static; /* Removes sticky on mobile */
+                width: 100%;
+                max-width: none;
+                padding: 30px 20px;
+            }
+
+            .right-col {
+                width: 100%;
+            }
+
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+
+<body class="body">
+    <div class="container">
+        <!-- Main Download Card -->
+        <div class="left-col">
+            <h1>TikTok Download Manager</h1>
+            <!-- Your Install Button Here -->
+        </div>
+
+        <!-- Instructions/Screenshots -->
+        <div class="right-col">
+            <!-- Your Guide Content/Images Here -->
+        </div>
+    </div>
+
+    <!-- Installation Guide Section -->
+    <div style="margin-top: 50px; text-align: left; max-width: 600px; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 25px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+        <h2 style="color: #333; font-size: 1.2em; border-bottom: 2px solid #0078d4; padding-bottom: 10px; margin-top: 0;">🛠 First-Time Setup Guide</h2>
+        
+        <p style="font-size: 0.9em; color: #666;">Because this is a professional private build, you must trust the security certificate once before installing.</p>
+
+        <div style="margin-bottom: 20px;">
+            <h3 style="font-size: 1em; color: #0078d4;">Step 1: Download & Install Certificate</h3>
+            
+            <p style="font-size: 0.9em;"><b>Screenshot 1</b> :</p>
+            <img src="assets/step1.png" alt="Right click certificate" style="width: 100%; height: auto; object-fit: cover; border-radius: 4px; border: 1px solid #ddd; margin-bottom: 10px;">
+            
+            <p style="font-size: 0.9em;"><b>Screenshot 2</b> :</p>
+            <img src="assets/step2.png" alt="Step 2" style="width: 100%; height: auto; object-fit: cover; border-radius: 4px; border: 1px solid #ddd;">
+
+            <p style="font-size: 0.9em;"><b>Screenshot 3</b> :</p>
+            <img src="assets/step3.png" alt="Step 3" style="width: 100%; height: auto; object-fit: cover; border-radius: 4px; border: 1px solid #ddd;">
+
+            <p style="font-size: 0.9em;"><b>Screenshot 4</b> :</p>
+            <img src="assets/step4.png" alt="Step 4" style="width: 100%; height: auto; object-fit: cover; border-radius: 4px; border: 1px solid #ddd;">
+
+            <p style="font-size: 0.9em;"><b>Screenshot 5</b> :</p>
+            <img src="assets/step5.png" alt="Step 5" style="width: 100%; height: auto; object-fit: cover; border-radius: 4px; border: 1px solid #ddd;">
+        </div>
+
+        <div style="margin-bottom: 10px;">
+            <h3 style="font-size: 1em; color: #0078d4;">Step 2: Run the Installer</h3>
+            <p style="font-size: 0.9em;">Once the certificate is imported, click the <b>Install for x64</b> or <b>Install for x86</b> button as shown in the image below or double-click the <b>.appinstaller</b> file.</p>
+            <img src="assets/step6.png" alt="Run appinstaller" style="width: 100%; height: auto; object-fit: cover; border-radius: 4px; border: 1px solid #ddd;">
+        </div>
+        
+        <p style="font-size: 0.8em; color: #999; text-align: center; margin-top: 20px;">Note: Future updates will happen automatically when you launch the app!</p>
+    </div>
+</body>
